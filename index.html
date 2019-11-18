@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+	<title>Inside out project</title>
+		
+	<!--header-resize css-->
+		<link rel="stylesheet" href="assets/css/header-resize.css">
+	
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	
+		
+		<script>
+					function init() {
+						window.addEventListener('scroll', function(e){
+							var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+								shrinkOn = 300,
+								header = document.querySelector("header");
+							if (distanceY > shrinkOn) {
+								classie.add(header,"smaller");
+							} else {
+								if (classie.has(header,"smaller")) {
+									classie.remove(header,"smaller");
+								}
+							}
+						});
+					}
+					window.onload = init();
+		</script>
+</head>
+
+<body>
+	<h1> iop-115 </h1>
+	<div id="wrapper">
+	  <header>
+		<div class="container clearfix">
+		  <h1 id="logo"> Inside Out </h1>
+		  <nav> <a href="">People</a> <a href="">Music</a> <a href="">Videos</a> </nav>
+		</div>
+	  </header>
+	  <!-- /header -->
+
+	  <div id="main">
+		<div id="content">
+		  <section>
+			<div class="container">
+			  <h1>White panel</h1>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			</div>
+		  </section>
+		  <section class="color">
+			<div class="container">
+			  <h1>Blue panel</h1>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			</div>
+		  </section>
+		  <section>
+			<div class="container">
+			  <h1>White panel</h1>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			</div>
+		  </section>
+		  <section class="color">
+			<div class="container">
+			  <h1>Blue panel</h1>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			  <p>Panel content</p>
+			</div>
+		  </section>
+		</div>
+	  </div>
+	  <!-- #main -->
+
+  <footer>
+    <div id="info-bar">
+      <div class="container clearfix"> <span class="all-tutorials"><a href="http://bootsnipp.com/cppratikcp">← all tutorials</a></span> <span class="back-to-tutorial"><a href="https://www.facebook.com/pratik.chauhan.cp">CHUAHAN PRATIK</a></span> </div>
+    </div>
+    <!-- /#top-bar --> 
+  </footer>
+  <!-- /footer --> 
+  
+	</div>
+<!-- /#wrapper --> 
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> 
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> 
+	
+		<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script> 
+	
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script> 
+	
+		<script src="assets/js/header-resize.js"></script>
+</body>
+</html>
